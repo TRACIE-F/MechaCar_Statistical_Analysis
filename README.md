@@ -3,9 +3,12 @@ For this analysis, I utilized R Studio and advanced statstics to analyze data fr
 
 ## Linear Regression to Predict MPG ##
 ![linear regression](https://github.com/TRACIE-F/mechacar_statistical_analysis/blob/main/Resources/W15D1.png)
-  * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? Vehicle length: 2.60e<sup>-12</sup> Ground clearance: 5.21e<sup>-08</sup> Intercept: 5.08e<sup>-8</sup>
-  * Is the slope of the linear model considered to be zero? Why or why not? The p-value is 5.35e<sup>-11</sup>, which would not be considered zero. Level of significance, null hypothesis rejected, subject to more than random chance
-  * Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not? Multiple R-squared value: 0.7149. Therefore, the model is 71% accurate
+  * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
+   * **Vehicle length**: 2.60e<sup>-12</sup> 
+   * **Ground clearance**: 5.21e<sup>-08</sup> 
+   * **Intercept**: 5.08e<sup>-8</sup>
+  * The p-value is 5.35e<sup>-11</sup>, which would not be considered zero, with a low level of significance. The null hypothesis rejected, and the result is subject to more than random factors.
+  * With a **Multiple R-squared value** of 0.7149, the model is 71% accurate. The model would be considered effective, but not necessarily highly effective.
 
 ## Summary Statistics on Suspension Coils ##
 **Total Summary**
@@ -38,13 +41,4 @@ Overall, I think one of the most important **metrics to test** would be fuel eff
 A null hypothesis has no statistical difference between, for example the mpg of the MechaCar prototype and the chosen competitors. Conversely, an alternative hypotheses would be that there is a statistical difference.
  
  **Statistical Test**
-The statistical test I would choose is a **one-way ANOVA**, which is used to test the means of a single dependent variable across a single independent variable with multiple groups. This test is appropriate as I've recommended one metric to test across multiple datasets.
- 
- **What data would be required**
-
-
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+The statistical test I would choose is a **one-way ANOVA**, which is used to test the means of a single dependent variable across a single independent variable with multiple groups. This test is appropriate as I've recommended one metric to test across multiple datasets. To run this test, the **data required** would be mpg/fuel efficiency from major competitors for similar vehicle types.
