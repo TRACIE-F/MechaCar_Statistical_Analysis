@@ -8,7 +8,7 @@ For this analysis, I utilized R Studio and advanced statstics to analyze data fr
    * **Ground clearance**: 5.21e<sup>-08</sup> 
    * **Intercept**: 5.08e<sup>-8</sup>
   * The p-value is 5.35e<sup>-11</sup>, which would not be considered zero, with a low level of significance. The null hypothesis rejected, and the result is subject to more than random factors.
-  * With a **Multiple R-squared value** of 0.7149, the model is 71% accurate. The model would be considered effective, but not necessarily highly effective.
+  * With a **Multiple R-squared** value of 0.7149, the model is 71% accurate. The model would be considered effective, but not necessarily highly effective.
 
 ## Summary Statistics on Suspension Coils ##
 **Total Summary**
