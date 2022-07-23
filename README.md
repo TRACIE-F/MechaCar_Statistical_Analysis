@@ -4,9 +4,9 @@ For this analysis, I utilized R Studio and advanced statstics to analyze data fr
 ## Linear Regression to Predict MPG ##
 ![linear regression](https://github.com/TRACIE-F/mechacar_statistical_analysis/blob/main/Resources/W15D1.png)
   * Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
-   * **Vehicle length**: 2.60e<sup>-12</sup> 
-   * **Ground clearance**: 5.21e<sup>-08</sup> 
-   * **Intercept**: 5.08e<sup>-8</sup>
+    * **Vehicle length**: 2.60e<sup>-12</sup> 
+    * **Ground clearance**: 5.21e<sup>-08</sup> 
+    * **Intercept**: 5.08e<sup>-8</sup>
   * The p-value is 5.35e<sup>-11</sup>, which would not be considered zero, with a low level of significance. The null hypothesis rejected, and the result is subject to more than random factors.
   * With a **Multiple R-squared** value of 0.7149, the model is 71% accurate. The model would be considered effective, but not necessarily highly effective.
 
