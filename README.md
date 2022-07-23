@@ -1,4 +1,5 @@
 # MechaCar Statistical Analysis #
+For this analysis, I utilized R Studio and advanced statstics to analyze data from the fictional company AutosRUs and determine successful strategies for future launches. 
 
 ## Linear Regression to Predict MPG ##
 ![linear regression](https://github.com/TRACIE-F/mechacar_statistical_analysis/blob/main/Resources/W15D1.png)
